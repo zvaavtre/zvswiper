@@ -10,6 +10,23 @@
 		BA9C83031A75D4D10095D8CB /* ZVSwiper.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9C83021A75D4D10095D8CB /* ZVSwiper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA9C83091A75D4D10095D8CB /* ZVSwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C82FD1A75D4D10095D8CB /* ZVSwiper.framework */; };
 		BA9C83101A75D4D10095D8CB /* ZVSwiperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C830F1A75D4D10095D8CB /* ZVSwiperTests.m */; };
+		BA9C831D1A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C83191A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.m */; };
+		BA9C831E1A75D50A0095D8CB /* ZVSwiperTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9C831A1A75D50A0095D8CB /* ZVSwiperTransition.h */; };
+		BA9C831F1A75D50A0095D8CB /* ZVSwiperTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C831B1A75D50A0095D8CB /* ZVSwiperTransition.m */; };
+		BA9C83201A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BA9C831C1A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.h */; };
+		BA9C83221A75D57C0095D8CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C83211A75D57C0095D8CB /* QuartzCore.framework */; };
+		BA9C83241A75D5820095D8CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C83231A75D5820095D8CB /* UIKit.framework */; };
+		BA9C83261A75D58A0095D8CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C83251A75D58A0095D8CB /* Foundation.framework */; };
+		BA9C83281A75D5920095D8CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C83271A75D5920095D8CB /* CoreGraphics.framework */; };
+		BA9C83321A75D73E0095D8CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C83311A75D73E0095D8CB /* main.m */; };
+		BA9C83351A75D73E0095D8CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C83341A75D73E0095D8CB /* AppDelegate.m */; };
+		BA9C83381A75D73E0095D8CB /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C83371A75D73E0095D8CB /* MasterViewController.m */; };
+		BA9C833B1A75D73E0095D8CB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C833A1A75D73E0095D8CB /* DetailViewController.m */; };
+		BA9C833E1A75D73E0095D8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9C833C1A75D73E0095D8CB /* Main.storyboard */; };
+		BA9C83401A75D73E0095D8CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9C833F1A75D73E0095D8CB /* Images.xcassets */; };
+		BA9C83431A75D73E0095D8CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9C83411A75D73E0095D8CB /* LaunchScreen.xib */; };
+		BA9C834F1A75D73E0095D8CB /* SwiperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C834E1A75D73E0095D8CB /* SwiperDemoTests.m */; };
+		BA9C83581A75D8110095D8CB /* ZVSwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C82FD1A75D4D10095D8CB /* ZVSwiper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +37,13 @@
 			remoteGlobalIDString = BA9C82FC1A75D4D10095D8CB;
 			remoteInfo = ZVSwiper;
 		};
+		BA9C83491A75D73E0095D8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9C82F41A75D4D10095D8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9C832C1A75D73E0095D8CB;
+			remoteInfo = SwiperDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +53,29 @@
 		BA9C83081A75D4D10095D8CB /* ZVSwiperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZVSwiperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9C830E1A75D4D10095D8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA9C830F1A75D4D10095D8CB /* ZVSwiperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZVSwiperTests.m; sourceTree = "<group>"; };
+		BA9C83191A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVSwiperNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		BA9C831A1A75D50A0095D8CB /* ZVSwiperTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVSwiperTransition.h; sourceTree = "<group>"; };
+		BA9C831B1A75D50A0095D8CB /* ZVSwiperTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVSwiperTransition.m; sourceTree = "<group>"; };
+		BA9C831C1A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVSwiperNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		BA9C83211A75D57C0095D8CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BA9C83231A75D5820095D8CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA9C83251A75D58A0095D8CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA9C83271A75D5920095D8CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA9C832D1A75D73E0095D8CB /* SwiperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9C83301A75D73E0095D8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9C83311A75D73E0095D8CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA9C83331A75D73E0095D8CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA9C83341A75D73E0095D8CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA9C83361A75D73E0095D8CB /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BA9C83371A75D73E0095D8CB /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BA9C83391A75D73E0095D8CB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BA9C833A1A75D73E0095D8CB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BA9C833D1A75D73E0095D8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA9C833F1A75D73E0095D8CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA9C83421A75D73E0095D8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA9C83481A75D73E0095D8CB /* SwiperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9C834D1A75D73E0095D8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9C834E1A75D73E0095D8CB /* SwiperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwiperDemoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9C83281A75D5920095D8CB /* CoreGraphics.framework in Frameworks */,
+				BA9C83261A75D58A0095D8CB /* Foundation.framework in Frameworks */,
+				BA9C83241A75D5820095D8CB /* UIKit.framework in Frameworks */,
+				BA9C83221A75D57C0095D8CB /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +98,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA9C832A1A75D73E0095D8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9C83581A75D8110095D8CB /* ZVSwiper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9C83451A75D73E0095D8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +121,13 @@
 			children = (
 				BA9C82FF1A75D4D10095D8CB /* ZVSwiper */,
 				BA9C830C1A75D4D10095D8CB /* ZVSwiperTests */,
+				BA9C832E1A75D73E0095D8CB /* SwiperDemo */,
+				BA9C834B1A75D73E0095D8CB /* SwiperDemoTests */,
 				BA9C82FE1A75D4D10095D8CB /* Products */,
+				BA9C83271A75D5920095D8CB /* CoreGraphics.framework */,
+				BA9C83251A75D58A0095D8CB /* Foundation.framework */,
+				BA9C83231A75D5820095D8CB /* UIKit.framework */,
+				BA9C83211A75D57C0095D8CB /* QuartzCore.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +136,8 @@
 			children = (
 				BA9C82FD1A75D4D10095D8CB /* ZVSwiper.framework */,
 				BA9C83081A75D4D10095D8CB /* ZVSwiperTests.xctest */,
+				BA9C832D1A75D73E0095D8CB /* SwiperDemo.app */,
+				BA9C83481A75D73E0095D8CB /* SwiperDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +145,10 @@
 		BA9C82FF1A75D4D10095D8CB /* ZVSwiper */ = {
 			isa = PBXGroup;
 			children = (
+				BA9C831A1A75D50A0095D8CB /* ZVSwiperTransition.h */,
+				BA9C831B1A75D50A0095D8CB /* ZVSwiperTransition.m */,
+				BA9C831C1A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.h */,
+				BA9C83191A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.m */,
 				BA9C83021A75D4D10095D8CB /* ZVSwiper.h */,
 				BA9C83001A75D4D10095D8CB /* Supporting Files */,
 			);
@@ -102,6 +180,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BA9C832E1A75D73E0095D8CB /* SwiperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA9C83331A75D73E0095D8CB /* AppDelegate.h */,
+				BA9C83341A75D73E0095D8CB /* AppDelegate.m */,
+				BA9C83361A75D73E0095D8CB /* MasterViewController.h */,
+				BA9C83371A75D73E0095D8CB /* MasterViewController.m */,
+				BA9C83391A75D73E0095D8CB /* DetailViewController.h */,
+				BA9C833A1A75D73E0095D8CB /* DetailViewController.m */,
+				BA9C833C1A75D73E0095D8CB /* Main.storyboard */,
+				BA9C833F1A75D73E0095D8CB /* Images.xcassets */,
+				BA9C83411A75D73E0095D8CB /* LaunchScreen.xib */,
+				BA9C832F1A75D73E0095D8CB /* Supporting Files */,
+			);
+			path = SwiperDemo;
+			sourceTree = "<group>";
+		};
+		BA9C832F1A75D73E0095D8CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9C83301A75D73E0095D8CB /* Info.plist */,
+				BA9C83311A75D73E0095D8CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA9C834B1A75D73E0095D8CB /* SwiperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA9C834E1A75D73E0095D8CB /* SwiperDemoTests.m */,
+				BA9C834C1A75D73E0095D8CB /* Supporting Files */,
+			);
+			path = SwiperDemoTests;
+			sourceTree = "<group>";
+		};
+		BA9C834C1A75D73E0095D8CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA9C834D1A75D73E0095D8CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -110,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9C83031A75D4D10095D8CB /* ZVSwiper.h in Headers */,
+				BA9C831E1A75D50A0095D8CB /* ZVSwiperTransition.h in Headers */,
+				BA9C83201A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +275,41 @@
 			productReference = BA9C83081A75D4D10095D8CB /* ZVSwiperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		BA9C832C1A75D73E0095D8CB /* SwiperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9C83501A75D73E0095D8CB /* Build configuration list for PBXNativeTarget "SwiperDemo" */;
+			buildPhases = (
+				BA9C83291A75D73E0095D8CB /* Sources */,
+				BA9C832A1A75D73E0095D8CB /* Frameworks */,
+				BA9C832B1A75D73E0095D8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiperDemo;
+			productName = SwiperDemo;
+			productReference = BA9C832D1A75D73E0095D8CB /* SwiperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA9C83471A75D73E0095D8CB /* SwiperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9C83531A75D73E0095D8CB /* Build configuration list for PBXNativeTarget "SwiperDemoTests" */;
+			buildPhases = (
+				BA9C83441A75D73E0095D8CB /* Sources */,
+				BA9C83451A75D73E0095D8CB /* Frameworks */,
+				BA9C83461A75D73E0095D8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9C834A1A75D73E0095D8CB /* PBXTargetDependency */,
+			);
+			name = SwiperDemoTests;
+			productName = SwiperDemoTests;
+			productReference = BA9C83481A75D73E0095D8CB /* SwiperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,6 +325,13 @@
 					BA9C83071A75D4D10095D8CB = {
 						CreatedOnToolsVersion = 6.2;
 					};
+					BA9C832C1A75D73E0095D8CB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BA9C83471A75D73E0095D8CB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BA9C832C1A75D73E0095D8CB;
+					};
 				};
 			};
 			buildConfigurationList = BA9C82F71A75D4D10095D8CB /* Build configuration list for PBXProject "ZVSwiper" */;
@@ -175,6 +340,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BA9C82F31A75D4D10095D8CB;
 			productRefGroup = BA9C82FE1A75D4D10095D8CB /* Products */;
@@ -183,6 +349,8 @@
 			targets = (
 				BA9C82FC1A75D4D10095D8CB /* ZVSwiper */,
 				BA9C83071A75D4D10095D8CB /* ZVSwiperTests */,
+				BA9C832C1A75D73E0095D8CB /* SwiperDemo */,
+				BA9C83471A75D73E0095D8CB /* SwiperDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +370,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA9C832B1A75D73E0095D8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9C833E1A75D73E0095D8CB /* Main.storyboard in Resources */,
+				BA9C83431A75D73E0095D8CB /* LaunchScreen.xib in Resources */,
+				BA9C83401A75D73E0095D8CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9C83461A75D73E0095D8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -209,6 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA9C831F1A75D50A0095D8CB /* ZVSwiperTransition.m in Sources */,
+				BA9C831D1A75D50A0095D8CB /* ZVSwiperNavigationControllerDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +407,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA9C83291A75D73E0095D8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9C83351A75D73E0095D8CB /* AppDelegate.m in Sources */,
+				BA9C83381A75D73E0095D8CB /* MasterViewController.m in Sources */,
+				BA9C83321A75D73E0095D8CB /* main.m in Sources */,
+				BA9C833B1A75D73E0095D8CB /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9C83441A75D73E0095D8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9C834F1A75D73E0095D8CB /* SwiperDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -228,7 +434,31 @@
 			target = BA9C82FC1A75D4D10095D8CB /* ZVSwiper */;
 			targetProxy = BA9C830A1A75D4D10095D8CB /* PBXContainerItemProxy */;
 		};
+		BA9C834A1A75D73E0095D8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9C832C1A75D73E0095D8CB /* SwiperDemo */;
+			targetProxy = BA9C83491A75D73E0095D8CB /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA9C833C1A75D73E0095D8CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9C833D1A75D73E0095D8CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA9C83411A75D73E0095D8CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9C83421A75D73E0095D8CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BA9C83111A75D4D10095D8CB /* Debug */ = {
@@ -266,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -305,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -375,6 +605,68 @@
 			};
 			name = Release;
 		};
+		BA9C83511A75D73E0095D8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA9C83521A75D73E0095D8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiperDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA9C83541A75D73E0095D8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiperDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiperDemo.app/SwiperDemo";
+			};
+			name = Debug;
+		};
+		BA9C83551A75D73E0095D8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiperDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiperDemo.app/SwiperDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -400,6 +692,22 @@
 			buildConfigurations = (
 				BA9C83171A75D4D10095D8CB /* Debug */,
 				BA9C83181A75D4D10095D8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA9C83501A75D73E0095D8CB /* Build configuration list for PBXNativeTarget "SwiperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9C83511A75D73E0095D8CB /* Debug */,
+				BA9C83521A75D73E0095D8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA9C83531A75D73E0095D8CB /* Build configuration list for PBXNativeTarget "SwiperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9C83541A75D73E0095D8CB /* Debug */,
+				BA9C83551A75D73E0095D8CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

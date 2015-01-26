@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SwiperDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ZVSwiper.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>BA9C83071A75D4D10095D8CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA9C832C1A75D73E0095D8CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BA9C83471A75D73E0095D8CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
