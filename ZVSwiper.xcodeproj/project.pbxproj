@@ -26,7 +26,8 @@
 		BA9C83401A75D73E0095D8CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9C833F1A75D73E0095D8CB /* Images.xcassets */; };
 		BA9C83431A75D73E0095D8CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA9C83411A75D73E0095D8CB /* LaunchScreen.xib */; };
 		BA9C834F1A75D73E0095D8CB /* SwiperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9C834E1A75D73E0095D8CB /* SwiperDemoTests.m */; };
-		BA9C83581A75D8110095D8CB /* ZVSwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C82FD1A75D4D10095D8CB /* ZVSwiper.framework */; };
+		BA9C83591A75DBFC0095D8CB /* ZVSwiper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C82FD1A75D4D10095D8CB /* ZVSwiper.framework */; };
+		BA9C835A1A75DBFC0095D8CB /* ZVSwiper.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA9C82FD1A75D4D10095D8CB /* ZVSwiper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,28 @@
 			remoteGlobalIDString = BA9C832C1A75D73E0095D8CB;
 			remoteInfo = SwiperDemo;
 		};
+		BA9C835B1A75DBFC0095D8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9C82F41A75D4D10095D8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9C82FC1A75D4D10095D8CB;
+			remoteInfo = ZVSwiper;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BA9C835D1A75DBFC0095D8CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BA9C835A1A75DBFC0095D8CB /* ZVSwiper.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BA9C82FD1A75D4D10095D8CB /* ZVSwiper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZVSwiper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA9C83581A75D8110095D8CB /* ZVSwiper.framework in Frameworks */,
+				BA9C83591A75DBFC0095D8CB /* ZVSwiper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +304,12 @@
 				BA9C83291A75D73E0095D8CB /* Sources */,
 				BA9C832A1A75D73E0095D8CB /* Frameworks */,
 				BA9C832B1A75D73E0095D8CB /* Resources */,
+				BA9C835D1A75DBFC0095D8CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BA9C835C1A75DBFC0095D8CB /* PBXTargetDependency */,
 			);
 			name = SwiperDemo;
 			productName = SwiperDemo;
@@ -438,6 +462,11 @@
 			isa = PBXTargetDependency;
 			target = BA9C832C1A75D73E0095D8CB /* SwiperDemo */;
 			targetProxy = BA9C83491A75D73E0095D8CB /* PBXContainerItemProxy */;
+		};
+		BA9C835C1A75DBFC0095D8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9C82FC1A75D4D10095D8CB /* ZVSwiper */;
+			targetProxy = BA9C835B1A75DBFC0095D8CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -614,7 +643,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = SwiperDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -625,7 +654,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiperDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

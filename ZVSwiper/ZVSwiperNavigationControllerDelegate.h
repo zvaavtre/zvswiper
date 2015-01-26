@@ -17,5 +17,4 @@
  
  */
 @interface ZVSwiperNavigationControllerDelegate : NSObject <UINavigationControllerDelegate>
-
 @end
